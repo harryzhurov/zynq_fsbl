@@ -1,0 +1,1498 @@
+Archive member included to satisfy reference by file (symbol)
+
+../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+                              (_vector_table)
+../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o) (_boot)
+../misc//ps7_cortexa9_0/lib/libxil.a(translation_table.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o) (MMUTable)
+../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+                              pcap.o (usleep)
+../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o) (FIQInterrupt)
+../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+                              main.o (Xil_DCacheFlush)
+../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o) (_start)
+../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+                              main.o (Xil_ExceptionInit)
+../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+                              image_mover.o (xil_printf)
+../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o) (XTime_SetTime)
+../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+                              qspi.o (XQspiPs_CfgInitialize)
+../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+                              qspi.o (XQspiPs_LookupConfig)
+../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+                              qspi.o (XQspiPs_SetOptions)
+../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+                              pcap.o (XDcfg_CfgInitialize)
+../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o) (XDcfg_IntrEnable)
+../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+                              pcap.o (XDcfg_LookupConfig)
+../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o) (XDcfg_ConfigTable)
+../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o) (__cpu_init)
+../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o) (outbyte)
+../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o) (Xil_Assert)
+../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o) (XQspiPs_ConfigTable)
+../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o) (XUartPs_SendByte)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o) (__aeabi_uidiv)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+                              /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o) (__ctype_ptr__)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o) (exit)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o) (__libc_fini_array)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+                              /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o) (__libc_init_array)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+                              qspi.o (memcpy)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o) (strlen)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+                              /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o) (__call_exitprocs)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+                              /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o) (atexit)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+                              /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o) (__register_exitproc)
+../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+                              /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o) (_exit)
+../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+                              sd.o (f_mount)
+../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+                              ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o) (disk_status)
+../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+                              ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o) (XSdPs_LookupConfig)
+../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+                              ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o) (XSdPs_CfgInitialize)
+../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o) (XSdPs_ConfigTable)
+../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o) (XSdPs_SetBlkSize)
+/opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
+                              ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+ApplicationFlag     0x1               image_mover.o
+WriteBuffer         0x5               qspi.o
+ReadBuffer          0x1005            qspi.o
+FsblLength          0x4               image_mover.o
+UndefinedExceptionAddr
+                    0x4               ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+PartitionChecksumFlag
+                    0x1               image_mover.o
+QspiFlashMake       0x4               qspi.o
+PSPartitionFlag     0x1               image_mover.o
+PrefetchAbortAddr   0x4               ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+MoveImage           0x4               image_mover.o
+Silicon_Version     0x4               main.o
+DcfgInstPtr         0x4               pcap.o
+QspiFlashSize       0x4               qspi.o
+ExecutionAddress    0x4               image_mover.o
+DataAbortAddr       0x4               ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+BitstreamFlag       0x1               image_mover.o
+SignedPartitionFlag
+                    0x1               image_mover.o
+QspiInstancePtr     0x4               qspi.o
+EncryptedPartitionFlag
+                    0x1               image_mover.o
+Xil_AssertStatus    0x4               ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+QspiInstance        0x34              qspi.o
+PartitionCount      0x4               image_mover.o
+PLPartitionFlag     0x1               image_mover.o
+SystemInitFlag      0x1               main.o
+PartitionHeader     0x380             image_mover.o
+PcapCtrlRegVal      0x4               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ps7_ram_0_S_AXI_BASEADDR 0x00000000         0x00030000
+ps7_ram_1_S_AXI_BASEADDR 0xffff0000         0x0000fe00
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD pcap.o
+LOAD ps7_init.o
+LOAD init.o
+LOAD nand.o
+LOAD qspi.o
+LOAD rsa.o
+LOAD main.o
+LOAD fsbl_hooks.o
+LOAD md5.o
+LOAD image_mover.o
+LOAD nor.o
+LOAD sd.o
+LOAD fsbl_handoff.o
+LOAD ../misc//ps7_cortexa9_0/lib/librsa.a
+START GROUP
+LOAD ../misc//ps7_cortexa9_0/lib/libxil.a
+LOAD /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a
+LOAD /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+START GROUP
+LOAD ../misc//ps7_cortexa9_0/lib/libxilffs.a
+LOAD ../misc//ps7_cortexa9_0/lib/libxil.a
+LOAD /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a
+LOAD /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+START GROUP
+LOAD /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a
+LOAD /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+                0x00006000                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0x6000
+                0x00002000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x2000
+                0x00001000                _RSA_AC_SIZE = DEFINED (_RSA_AC_SIZE)?_RSA_AC_SIZE:0x1000
+                0x00000400                _ABORT_STACK_SIZE = DEFINED (_ABORT_STACK_SIZE)?_ABORT_STACK_SIZE:0x400
+                0x00000800                _SUPERVISOR_STACK_SIZE = DEFINED (_SUPERVISOR_STACK_SIZE)?_SUPERVISOR_STACK_SIZE:0x800
+                0x00000400                _FIQ_STACK_SIZE = DEFINED (_FIQ_STACK_SIZE)?_FIQ_STACK_SIZE:0x400
+                0x00000400                _UNDEF_STACK_SIZE = DEFINED (_UNDEF_STACK_SIZE)?_UNDEF_STACK_SIZE:0x400
+
+.text           0x00000000     0xcd3c
+ *(.vectors)
+ .vectors       0x00000000      0x12c ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+                0x00000000                _vector_table
+ *(.boot)
+ .boot          0x0000012c      0x3b0 ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+                0x0000012c                _boot
+                0x0000012c                _prestart
+ *(.text)
+ *fill*         0x000004dc        0x4 
+ .text          0x000004e0      0x474 pcap.o
+                0x000004e0                InitPcap
+                0x0000051c                FabricInit
+                0x000006d8                ClearPcapStatus
+                0x00000770                PcapDumpRegisters
+                0x00000774                XDcfgPollDone
+                0x000007ec                PcapDataTransfer
+                0x00000890                PcapLoadPartition
+ .text          0x00000954      0x418 ps7_init.o
+                0x00000954                getPS7MessageInfo
+                0x00000970                ps7GetSiliconVersion
+                0x00000984                mask_write
+                0x0000099c                mask_poll
+                0x000009d8                mask_read
+                0x000009e4                ps7_config
+                0x00000b28                ps7_post_config
+                0x00000b68                ps7_debug
+                0x00000ba8                ps7_init
+                0x00000ce4                perf_start_clock
+                0x00000cf8                perf_reset_clock
+                0x00000d14                get_number_of_cycles_for_delay
+                0x00000d34                perf_disable_clock
+                0x00000d48                perf_reset_and_start_timer
+ .text          0x00000d6c        0x8 init.o
+                0x00000d6c                _fini
+                0x00000d70                _init
+ .text          0x00000d74        0x0 nand.o
+ .text          0x00000d74      0x500 qspi.o
+                0x00000d74                FlashReadID
+                0x00000e9c                InitQspi
+                0x00000f94                FlashRead
+                0x00000fe8                SendBankSelect
+                0x00001168                QspiAccess
+ .text          0x00001274        0x0 rsa.o
+ .text          0x00001274      0x508 main.o
+                0x00001274                OutputStatus
+                0x00001298                memcpy_rom
+                0x000012bc                strcpy_rom
+                0x00001300                MarkFSBLIn
+                0x00001314                ClearFSBLIn
+                0x00001328                GetResetReason
+                0x00001338                GetSiliconVersion
+                0x00001360                HeaderChecksum
+                0x000013e4                ImageCheckID
+                0x00001424                NextValidImageCheck
+                0x0000151c                FsblFallback
+                0x00001628                FsblHandoff
+                0x000016e4                ErrorLockdown
+                0x00001728                DDRInitCheck
+ .text          0x0000177c       0x1c fsbl_hooks.o
+                0x0000177c                FsblHookBeforeBitstreamDload
+                0x00001784                FsblHookAfterBitstreamDload
+                0x0000178c                FsblHookBeforeHandoff
+                0x00001794                FsblHookFallback
+ .text          0x00001798     0x1180 md5.o
+                0x00001798                MD5Memset
+                0x000017bc                MD5Memcpy
+                0x00001838                MD5Transform
+                0x00002254                MD5Init
+                0x00002298                MD5Update
+                0x0000251c                MD5Final
+                0x00002654                md5
+ .text          0x00002918      0xacc image_mover.o
+                0x00002918                GetPartitionHeaderStartAddr
+                0x00002940                GetImageHeaderStartAddr
+                0x00002968                GetFsblLength
+                0x00002990                LoadPartitionsHeaderInfo
+                0x000029b4                HeaderDump
+                0x000029b8                GetPartitionCount
+                0x00002a00                GetPartitionHeaderInfo
+                0x00002ab4                IsLastPartition
+                0x00002ae8                ValidateHeader
+                0x00002b4c                IsEmptyHeader
+                0x00002b74                ValidatePartitionHeaderChecksum
+                0x00002ba4                PartitionMove
+                0x00002dfc                DecryptPartition
+                0x00002e28                ValidateParition
+                0x00002ea8                LoadBootImage
+                0x000033ac                GetPartitionChecksum
+                0x000033d0                CalcPartitionChecksum
+ .text          0x000033e4       0x5c nor.o
+                0x000033e4                InitNor
+                0x000033f8                NorAccess
+ .text          0x00003440       0xd0 sd.o
+                0x00003440                InitSD
+                0x000034b4                SDAccess
+                0x00003504                ReleaseSD
+ .text          0x00003510        0x0 fsbl_handoff.o
+ .text          0x00003510        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .text          0x00003510        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .text          0x00003510        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(translation_table.o)
+ .text          0x00003510       0x44 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+                0x00003510                usleep
+ .text          0x00003554       0x78 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+                0x00003554                FIQInterrupt
+                0x00003568                IRQInterrupt
+                0x0000357c                UndefinedException
+                0x00003590                SWInterrupt
+                0x000035a4                DataAbortInterrupt
+                0x000035b8                PrefetchAbortInterrupt
+ .text          0x000035cc      0x970 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+                0x00003620                Xil_DCacheInvalidateLine
+                0x00003658                Xil_DCacheInvalidateRange
+                0x00003744                Xil_DCacheFlushLine
+                0x00003790                Xil_DCacheFlushRange
+                0x000037e4                Xil_DCacheStoreLine
+                0x0000381c                Xil_ICacheDisable
+                0x00003854                Xil_ICacheInvalidateLine
+                0x0000388c                Xil_ICacheInvalidateRange
+                0x000038e4                Xil_L1DCacheInvalidate
+                0x0000398c                Xil_L1DCacheEnable
+                0x000039ac                Xil_L1DCacheInvalidateLine
+                0x000039c4                Xil_L1DCacheInvalidateRange
+                0x00003a0c                Xil_L1DCacheFlush
+                0x00003a9c                Xil_L1DCacheDisable
+                0x00003ab4                Xil_DCacheFlush
+                0x00003b10                Xil_DCacheDisable
+                0x00003b40                Xil_L1DCacheFlushLine
+                0x00003b58                Xil_L1DCacheFlushRange
+                0x00003ba0                Xil_L1DCacheStoreLine
+                0x00003bb8                Xil_L1ICacheEnable
+                0x00003bd4                Xil_L1ICacheDisable
+                0x00003bf0                Xil_L1ICacheInvalidate
+                0x00003c08                Xil_L1ICacheInvalidateLine
+                0x00003c20                Xil_L1ICacheInvalidateRange
+                0x00003c68                Xil_L2CacheDisable
+                0x00003c80                Xil_L2CacheInvalidate
+                0x00003cd4                Xil_DCacheInvalidate
+                0x00003cf4                Xil_ICacheInvalidate
+                0x00003d7c                Xil_L2CacheEnable
+                0x00003d94                Xil_DCacheEnable
+                0x00003db8                Xil_ICacheEnable
+                0x00003de8                Xil_L2CacheInvalidateLine
+                0x00003dfc                Xil_L2CacheInvalidateRange
+                0x00003e64                Xil_L2CacheFlush
+                0x00003ea8                Xil_L2CacheFlushLine
+                0x00003ec0                Xil_L2CacheFlushRange
+                0x00003f28                Xil_L2CacheStoreLine
+ .text          0x00003f3c       0x78 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+                0x00003f50                _start
+ .text          0x00003fb4       0x50 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+                0x00003fb8                Xil_DataAbortHandler
+                0x00003fbc                Xil_PrefetchAbortHandler
+                0x00003fc0                Xil_UndefinedExceptionHandler
+                0x00003fc4                Xil_ExceptionInit
+                0x00003fc8                Xil_ExceptionRegisterHandler
+                0x00003fe0                Xil_ExceptionRemoveHandler
+ .text          0x00004004      0x690 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+                0x00004214                xil_printf
+ .text          0x00004694       0x5c ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+                0x00004694                XTime_SetTime
+                0x000046b8                XTime_GetTime
+ .text          0x000046f0     0x106c ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+                0x000047d0                XQspiPs_Abort
+                0x00004858                XQspiPs_Reset
+                0x000048f0                XQspiPs_CfgInitialize
+                0x000049b0                XQspiPs_Transfer
+                0x00004d14                XQspiPs_PolledTransfer
+                0x000051a8                XQspiPs_LqspiRead
+                0x000052d0                XQspiPs_SetSlaveSelect
+                0x0000537c                XQspiPs_SetStatusHandler
+                0x00005424                XQspiPs_InterruptHandler
+ .text          0x0000575c       0x1c ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+                0x0000575c                XQspiPs_LookupConfig
+ .text          0x00005778      0x474 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+                0x00005778                XQspiPs_SetOptions
+                0x0000587c                XQspiPs_GetOptions
+                0x0000593c                XQspiPs_SetClkPrescaler
+                0x00005a08                XQspiPs_GetClkPrescaler
+                0x00005a98                XQspiPs_SetDelays
+                0x00005b48                XQspiPs_GetDelays
+ .text          0x00005bec      0xc10 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+                0x00005bec                XDcfg_CfgInitialize
+                0x00005ca4                XDcfg_EnablePCAP
+                0x00005d28                XDcfg_DisablePCAP
+                0x00005dac                XDcfg_SetControlRegister
+                0x00005e34                XDcfg_ClearControlRegister
+                0x00005ec0                XDcfg_GetControlRegister
+                0x00005f4c                XDcfg_SetLockRegister
+                0x00005fd0                XDcfg_GetLockRegister
+                0x0000605c                XDcfg_SetConfigRegister
+                0x000060e0                XDcfg_GetConfigRegister
+                0x0000616c                XDcfg_SetStatusRegister
+                0x000061f0                XDcfg_GetStatusRegister
+                0x0000627c                XDcfg_SetRomShadowRegister
+                0x00006300                XDcfg_GetSoftwareIdRegister
+                0x00006388                XDcfg_SetMiscControlRegister
+                0x00006414                XDcfg_GetMiscControlRegister
+                0x000064a0                XDcfg_IsDmaBusy
+                0x00006534                XDcfg_InitiateDma
+                0x0000655c                XDcfg_Transfer
+ .text          0x000067fc      0x3d4 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+                0x000067fc                XDcfg_IntrEnable
+                0x0000688c                XDcfg_IntrDisable
+                0x0000691c                XDcfg_IntrGetEnabled
+                0x000069a4                XDcfg_IntrGetStatus
+                0x00006a28                XDcfg_IntrClear
+                0x00006aa4                XDcfg_InterruptHandler
+                0x00006b2c                XDcfg_SetHandler
+ .text          0x00006bd0       0x1c ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+                0x00006bd0                XDcfg_LookupConfig
+ .text          0x00006bec        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .text          0x00006bec       0x3c ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+                0x00006bec                __cpu_init
+ .text          0x00006c28       0x10 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+                0x00006c28                outbyte
+ .text          0x00006c38       0x48 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+                0x00006c38                Xil_Assert
+                0x00006c6c                Xil_AssertSetCallback
+                0x00006c7c                XNullHandler
+ .text          0x00006c80        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .text          0x00006c80       0x94 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+                0x00006c80                XUartPs_SendByte
+                0x00006c98                XUartPs_RecvByte
+                0x00006cb4                XUartPs_ResetHw
+ .text          0x00006d14      0x114 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+                0x00006d14                __udivsi3
+                0x00006d14                __aeabi_uidiv
+                0x00006e08                __aeabi_uidivmod
+ .text          0x00006e28        0x4 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+                0x00006e28                __aeabi_ldiv0
+                0x00006e28                __aeabi_idiv0
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+ .text          0x00006e2c        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+ .text          0x00006e2c        0x4 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+                0x00006e2c                _exit
+ .text          0x00006e30     0x35c4 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+                0x00008254                clust2sect
+                0x00008278                get_fat
+                0x00008294                put_fat
+                0x000082b4                f_mount
+                0x00008350                f_open
+                0x00008584                f_read
+                0x00008868                f_write
+                0x00008b98                f_sync
+                0x00008c6c                f_close
+                0x00008c98                f_lseek
+                0x00008f10                f_opendir
+                0x00008ffc                f_closedir
+                0x00009018                f_readdir
+                0x000090bc                f_stat
+                0x00009168                f_getfree
+                0x000092d0                f_truncate
+                0x00009454                f_unlink
+                0x000095d4                f_mkdir
+                0x00009874                f_chmod
+                0x00009930                f_utime
+                0x000099e0                f_rename
+                0x00009c6c                f_mkfs
+ .text          0x0000a3f4      0x348 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+                0x0000a3f4                disk_status
+                0x0000a510                disk_initialize
+                0x0000a5cc                disk_read
+                0x0000a64c                disk_ioctl
+                0x0000a6b0                get_fattime
+                0x0000a6bc                disk_write
+ .text          0x0000a73c       0x1c ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+                0x0000a73c                XSdPs_LookupConfig
+ .text          0x0000a758     0x10f0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+                0x0000a758                XSdPs_CfgInitialize
+                0x0000a944                XSdPs_FrameCmd
+                0x0000ab0c                XSdPs_CmdTransfer
+                0x0000ac70                XSdPs_SdCardInitialize
+                0x0000af40                XSdPs_Select_Card
+                0x0000af64                XSdPs_SetupADMA2DescTbl
+                0x0000b014                XSdPs_ReadPolled
+                0x0000b11c                XSdPs_WritePolled
+                0x0000b220                XSdPs_MmcCardInitialize
+                0x0000b428                XSdPs_CardInitialize
+ .text          0x0000b848        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .text          0x0000b848      0xbd8 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+                0x0000b848                XSdPs_SetBlkSize
+                0x0000b918                XSdPs_Get_BusWidth
+                0x0000ba60                XSdPs_Change_BusWidth
+                0x0000bbf0                XSdPs_Get_BusSpeed
+                0x0000bd24                XSdPs_Change_ClkFreq
+                0x0000bec4                XSdPs_Change_BusSpeed
+                0x0000c1cc                XSdPs_Pullup
+                0x0000c280                XSdPs_Get_Mmc_ExtCsd
+                0x0000c3b4                XSdPs_Set_Mmc_ExtCsd
+ .text          0x0000c420        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
+ *(.text.*)
+ .text.startup  0x0000c420      0x348 main.o
+                0x0000c420                main
+ .text.exit     0x0000c768       0x34 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+                0x0000c768                exit
+ .text.__libc_fini_array
+                0x0000c79c       0x44 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+                0x0000c79c                __libc_fini_array
+ .text.__libc_init_array
+                0x0000c7e0       0x80 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+                0x0000c7e0                __libc_init_array
+ .text.memcpy   0x0000c860       0xf0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+                0x0000c860                memcpy
+ .text.strlen   0x0000c950       0x60 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+                0x0000c950                strlen
+ .text.startup.register_fini
+                0x0000c9b0       0x28 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000c9d8      0x170 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+                0x0000c9d8                __call_exitprocs
+ .text.atexit   0x0000cb48       0x20 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+                0x0000cb48                atexit
+ .text.__register_exitproc
+                0x0000cb68       0xe0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+                0x0000cb68                __register_exitproc
+ .text.memset   0x0000cc48       0xf4 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
+                0x0000cc48                memset
+ *(.gnu.linkonce.t.*)
+ *(.plt)
+ *(.gnu_warning)
+ *(.gcc_execpt_table)
+ *(.glue_7)
+ .glue_7        0x0000cd3c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000cd3c        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000cd3c        0x0 linker stubs
+ *(.ARM.extab)
+ *(.gnu.linkonce.armextab.*)
+
+.v4_bx          0x0000cd3c        0x0
+ .v4_bx         0x0000cd3c        0x0 linker stubs
+
+.iplt           0x0000cd3c        0x0
+ .iplt          0x0000cd3c        0x0 pcap.o
+
+.handoff        0x0000cd3c       0x4c
+ .handoff       0x0000cd3c       0x4c fsbl_handoff.o
+                0x0000cd3c                FsblHandoffJtagExit
+                0x0000cd60                FsblHandoffExit
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.rodata         0x0000cd88      0x34c
+                0x0000cd88                __rodata_start = .
+ *(.rodata)
+ .rodata        0x0000cd88       0x18 ps7_init.o
+ .rodata        0x0000cda0       0x28 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .rodata        0x0000cdc8       0x2e ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ *(.rodata.*)
+ *fill*         0x0000cdf6        0x2 
+ .rodata.str1.4
+                0x0000cdf8       0xce ps7_init.o
+ *fill*         0x0000cec6        0x2 
+ .rodata.str1.4
+                0x0000cec8        0x9 main.o
+ *fill*         0x0000ced1        0x3 
+ .rodata.str1.4
+                0x0000ced4       0x4e image_mover.o
+ *fill*         0x0000cf22        0x2 
+ .rodata.str1.4
+                0x0000cf24        0x4 sd.o
+ .rodata.str1.4
+                0x0000cf28       0x11 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ *fill*         0x0000cf39        0x3 
+ .rodata.str1.4
+                0x0000cf3c        0xa ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ *fill*         0x0000cf46        0x2 
+ .rodata.str1.4
+                0x0000cf48       0x12 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ *fill*         0x0000cf5a        0x2 
+ .rodata.str1.4
+                0x0000cf5c        0xa ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ *fill*         0x0000cf66        0x2 
+ .rodata.str1.4
+                0x0000cf68        0xf ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ *fill*         0x0000cf77        0x1 
+ .rodata._ctype_
+                0x0000cf78      0x101 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+                0x0000cf78                _ctype_
+ *fill*         0x0000d079        0x3 
+ .rodata.str1.4
+                0x0000d07c        0x2 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ *fill*         0x0000d07e        0x2 
+ .rodata._global_impure_ptr
+                0x0000d080        0x4 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+                0x0000d080                _global_impure_ptr
+ .rodata.str1.4
+                0x0000d084       0x38 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .rodata.str1.4
+                0x0000d0bc        0x8 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .rodata.str1.4
+                0x0000d0c4       0x10 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+ *(.gnu.linkonce.r.*)
+                0x0000d0d4                __rodata_end = .
+
+.rodata1        0x0000d0d4        0x0
+                0x0000d0d4                __rodata1_start = .
+ *(.rodata1)
+ *(.rodata1.*)
+                0x0000d0d4                __rodata1_end = .
+
+.sdata2         0x0000d0d4        0x0
+                0x0000d0d4                __sdata2_start = .
+ *(.sdata2)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s2.*)
+                0x0000d0d4                __sdata2_end = .
+
+.sbss2          0x0000d0d4        0x0
+                0x0000d0d4                __sbss2_start = .
+ *(.sbss2)
+ *(.sbss2.*)
+ *(.gnu.linkonce.sb2.*)
+                0x0000d0d4                __sbss2_end = .
+
+.data           0x0000d0d8     0x30bc
+                0x0000d0d8                __data_start = .
+ *(.data)
+ .data          0x0000d0d8        0x0 pcap.o
+ .data          0x0000d0d8     0x2bc4 ps7_init.o
+                0x0000d0d8                ps7_post_config_1_0
+                0x0000d11c                ps7_post_config_2_0
+                0x0000d160                ps7_post_config_3_0
+                0x0000d1a4                ps7_debug_1_0
+                0x0000d1d8                ps7_debug_2_0
+                0x0000d20c                ps7_debug_3_0
+                0x0000d240                ps7_mio_init_data_1_0
+                0x0000d6d4                ps7_mio_init_data_2_0
+                0x0000db68                ps7_mio_init_data_3_0
+                0x0000dffc                ps7_mio_init_data
+                0x0000e000                ps7_pll_init_data
+                0x0000e004                ps7_pll_init_data_1_0
+                0x0000e18c                ps7_clock_init_data
+                0x0000e190                ps7_clock_init_data_1_0
+                0x0000e274                ps7_ddr_init_data
+                0x0000e278                ps7_ddr_init_data_1_0
+                0x0000e784                ps7_peripherals_init_data
+                0x0000e788                ps7_peripherals_init_data_1_0
+                0x0000e984                ps7_pll_init_data_2_0
+                0x0000eb0c                ps7_clock_init_data_2_0
+                0x0000ebf0                ps7_ddr_init_data_2_0
+                0x0000f11c                ps7_peripherals_init_data_2_0
+                0x0000f318                ps7_pll_init_data_3_0
+                0x0000f4a0                ps7_clock_init_data_3_0
+                0x0000f584                ps7_ddr_init_data_3_0
+                0x0000faa0                ps7_peripherals_init_data_3_0
+ .data          0x0000fc9c        0x0 init.o
+ .data          0x0000fc9c        0x0 nand.o
+ .data          0x0000fc9c        0x0 qspi.o
+ .data          0x0000fc9c        0x0 rsa.o
+ .data          0x0000fc9c        0x0 main.o
+ .data          0x0000fc9c        0x0 fsbl_hooks.o
+ .data          0x0000fc9c        0x0 md5.o
+ .data          0x0000fc9c        0x0 image_mover.o
+ .data          0x0000fc9c        0x0 nor.o
+ .data          0x0000fc9c        0x0 sd.o
+ .data          0x0000fc9c        0x0 fsbl_handoff.o
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(translation_table.o)
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .data          0x0000fc9c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .data          0x0000fc9c       0x38 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+                0x0000fc9c                XExc_VectorTable
+ .data          0x0000fcd4        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .data          0x0000fcd4        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .data          0x0000fcd4       0x4e ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .data          0x0000fd22        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .data          0x0000fd22        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .data          0x0000fd22        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .data          0x0000fd22        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .data          0x0000fd22        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ *fill*         0x0000fd22        0x2 
+ .data          0x0000fd24        0x8 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+                0x0000fd24                XDcfg_ConfigTable
+ .data          0x0000fd2c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .data          0x0000fd2c        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .data          0x0000fd2c        0x4 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+                0x0000fd2c                Xil_AssertWait
+ .data          0x0000fd30       0x10 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+                0x0000fd30                XQspiPs_ConfigTable
+ .data          0x0000fd40        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+ .data          0x0000fd40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+ .data          0x0000fd40        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .data          0x0000fd40        0x0 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .data          0x0000fd40        0x2 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .data          0x0000fd42        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .data          0x0000fd42        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ *fill*         0x0000fd42        0x2 
+ .data          0x0000fd44       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+                0x0000fd44                XSdPs_ConfigTable
+ .data          0x0000fd64        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+ .data          0x0000fd64        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
+ *(.data.*)
+ .data.__ctype_ptr__
+                0x0000fd64        0x4 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+                0x0000fd64                __ctype_ptr__
+ .data.impure_data
+                0x0000fd68      0x428 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00010190        0x4 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+                0x00010190                _impure_ptr
+ *(.gnu.linkonce.d.*)
+ *(.jcr)
+ *(.got)
+ *(.got.plt)
+                0x00010194                __data_end = .
+
+.igot.plt       0x00010194        0x0
+ .igot.plt      0x00010194        0x0 pcap.o
+
+.got2           0x00010194        0x0
+ .got2          0x00010194        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+
+.data1          0x00010194        0x0
+                0x00010194                __data1_start = .
+ *(.data1)
+ *(.data1.*)
+                0x00010194                __data1_end = .
+
+.got
+ *(.got)
+
+.ctors          0x00010194        0x0
+                0x00010194                __CTOR_LIST__ = .
+                0x00010194                ___CTORS_LIST___ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x00010194                __CTOR_END__ = .
+                0x00010194                ___CTORS_END___ = .
+
+.dtors          0x00010194        0x0
+                0x00010194                __DTOR_LIST__ = .
+                0x00010194                ___DTORS_LIST___ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x00010194                __DTOR_END__ = .
+                0x00010194                ___DTORS_END___ = .
+
+.fixup          0x00010194        0x0
+                0x00010194                __fixup_start = .
+ *(.fixup)
+                0x00010194                __fixup_end = .
+
+.eh_frame
+ *(.eh_frame)
+
+.eh_framehdr    0x00010194        0x0
+                0x00010194                __eh_framehdr_start = .
+ *(.eh_framehdr)
+                0x00010194                __eh_framehdr_end = .
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.mmu_tbl        0x00014000     0x4000
+                0x00014000                __mmu_tbl_start = .
+ *(.mmu_tbl)
+ .mmu_tbl       0x00014000     0x4000 ../misc//ps7_cortexa9_0/lib/libxil.a(translation_table.o)
+                0x00014000                MMUTable
+                0x00018000                __mmu_tbl_end = .
+
+.rel.dyn        0x00018000        0x0
+ .rel.iplt      0x00018000        0x0 pcap.o
+
+.ARM.exidx      0x00018000        0x0
+                0x00018000                __exidx_start = .
+ *(.ARM.exidx*)
+ *(.gnu.linkonce.armexidix.*.*)
+                0x00018000                __exidx_end = .
+
+.preinit_array  0x00018000        0x0
+                0x00018000                __preinit_array_start = .
+ *(SORT(.preinit_array.*))
+ *(.preinit_array)
+                0x00018000                __preinit_array_end = .
+
+.init_array     0x00018000        0x4
+                0x00018000                __init_array_start = .
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x00018000        0x4 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+                0x00018004                __init_array_end = .
+
+.fini_array     0x00018004        0x0
+                0x00018004                __fini_array_start = .
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x00018004                __fini_array_end = .
+
+.rsa_ac         0x00018004     0x103c
+                0x00018040                . = ALIGN (0x40)
+ *fill*         0x00018004       0x3c 
+                0x00018040                __rsa_ac_start = .
+                0x00019040                . = (. + _RSA_AC_SIZE)
+ *fill*         0x00018040     0x1000 
+                0x00019040                __rsa_ac_end = .
+
+.ARM.attributes
+                0x00019040       0x3b
+                0x00019040                __ARM.attributes_start = .
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00019040       0x39 pcap.o
+ .ARM.attributes
+                0x00019079       0x39 ps7_init.o
+ .ARM.attributes
+                0x000190b2       0x39 init.o
+ .ARM.attributes
+                0x000190eb       0x39 nand.o
+ .ARM.attributes
+                0x00019124       0x39 qspi.o
+ .ARM.attributes
+                0x0001915d       0x39 rsa.o
+ .ARM.attributes
+                0x00019196       0x39 main.o
+ .ARM.attributes
+                0x000191cf       0x39 fsbl_hooks.o
+ .ARM.attributes
+                0x00019208       0x39 md5.o
+ .ARM.attributes
+                0x00019241       0x39 image_mover.o
+ .ARM.attributes
+                0x0001927a       0x39 nor.o
+ .ARM.attributes
+                0x000192b3       0x39 sd.o
+ .ARM.attributes
+                0x000192ec       0x16 fsbl_handoff.o
+ .ARM.attributes
+                0x00019302       0x2b ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .ARM.attributes
+                0x0001932d       0x2b ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .ARM.attributes
+                0x00019358       0x2b ../misc//ps7_cortexa9_0/lib/libxil.a(translation_table.o)
+ .ARM.attributes
+                0x00019383       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .ARM.attributes
+                0x000193bc       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .ARM.attributes
+                0x000193f5       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .ARM.attributes
+                0x0001942e       0x2b ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .ARM.attributes
+                0x00019459       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .ARM.attributes
+                0x00019492       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .ARM.attributes
+                0x000194cb       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .ARM.attributes
+                0x00019504       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .ARM.attributes
+                0x00019534       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .ARM.attributes
+                0x00019564       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .ARM.attributes
+                0x00019594       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .ARM.attributes
+                0x000195c4       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .ARM.attributes
+                0x000195f4       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .ARM.attributes
+                0x00019624       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .ARM.attributes
+                0x00019654       0x2b ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .ARM.attributes
+                0x0001967f       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .ARM.attributes
+                0x000196b8       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .ARM.attributes
+                0x000196f1       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .ARM.attributes
+                0x00019721       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .ARM.attributes
+                0x00019751       0x18 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00019769       0x18 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00019781       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000197b1       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000197e1       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00019811       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00019841       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00019871       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000198a1       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x000198d1       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00019901       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00019931       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00019961       0x39 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .ARM.attributes
+                0x0001999a       0x30 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .ARM.attributes
+                0x000199ca       0x30 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .ARM.attributes
+                0x000199fa       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .ARM.attributes
+                0x00019a2a       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .ARM.attributes
+                0x00019a5a       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .ARM.attributes
+                0x00019a8a       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+ .ARM.attributes
+                0x00019aba       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
+                0x00019aea                __ARM.attributes_end = .
+
+.sdata          0x00019040        0x0
+                0x00019040                __sdata_start = .
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x00019040                __sdata_end = .
+
+.sbss           0x00019040        0x0
+                0x00019040                __sbss_start = .
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+                0x00019040                __sbss_end = .
+
+.tdata          0x00019040        0x0
+                0x00019040                __tdata_start = .
+ *(.tdata)
+ *(.tdata.*)
+ *(.gnu.linkonce.td.*)
+                0x00019040                __tdata_end = .
+
+.tbss           0x00019040        0x0
+                0x00019040                __tbss_start = .
+ *(.tbss)
+ *(.tbss.*)
+ *(.gnu.linkonce.tb.*)
+                0x00019040                __tbss_end = .
+
+.bss            0x00019040     0x1e10
+                0x00019040                __bss_start = .
+                0x00019040                __bss_start__ = .
+ *(.bss)
+ .bss           0x00019040       0x18 pcap.o
+ .bss           0x00019058        0x0 ps7_init.o
+ .bss           0x00019058        0x0 init.o
+ .bss           0x00019058        0x0 nand.o
+ .bss           0x00019058        0x0 qspi.o
+ .bss           0x00019058        0x0 rsa.o
+ .bss           0x00019058        0x5 main.o
+                0x00019058                FlashReadBaseAddress
+                0x0001905c                LinearBootDeviceFlag
+ .bss           0x0001905d        0x0 fsbl_hooks.o
+ .bss           0x0001905d        0x0 md5.o
+ .bss           0x0001905d        0x0 image_mover.o
+ .bss           0x0001905d        0x0 nor.o
+ *fill*         0x0001905d        0x3 
+ .bss           0x00019060      0x4a0 sd.o
+ .bss           0x00019500        0x0 fsbl_handoff.o
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(translation_table.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .bss           0x00019500        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .bss           0x00019500        0x4 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .bss           0x00019504        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .bss           0x00019504        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+ .bss           0x00019504        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+ .bss           0x00019504        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .bss           0x00019504        0xa ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ *fill*         0x0001950e       0x12 
+ .bss           0x00019520      0x314 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .bss           0x00019834        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ *fill*         0x00019834        0xc 
+ .bss           0x00019840      0x200 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .bss           0x00019a40        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .bss           0x00019a40        0x0 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+ .bss           0x00019a40        0x0 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
+ *(.bss.*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+ COMMON         0x00019a40        0x4 pcap.o
+                0x00019a40                DcfgInstPtr
+ COMMON         0x00019a44     0x1050 qspi.o
+                0x00019a44                WriteBuffer
+                0x00019a4c                ReadBuffer
+                0x0001aa54                QspiFlashMake
+                0x0001aa58                QspiFlashSize
+                0x0001aa5c                QspiInstancePtr
+                0x0001aa60                QspiInstance
+ COMMON         0x0001aa94        0xc main.o
+                0x0001aa94                Silicon_Version
+                0x0001aa98                SystemInitFlag
+                0x0001aa9c                PcapCtrlRegVal
+ COMMON         0x0001aaa0      0x3a0 image_mover.o
+                0x0001aaa0                ApplicationFlag
+                0x0001aaa4                FsblLength
+                0x0001aaa8                PartitionChecksumFlag
+                0x0001aaa9                PSPartitionFlag
+                0x0001aaac                MoveImage
+                0x0001aab0                ExecutionAddress
+                0x0001aab4                BitstreamFlag
+                0x0001aab5                SignedPartitionFlag
+                0x0001aab6                EncryptedPartitionFlag
+                0x0001aab8                PartitionCount
+                0x0001aabc                PLPartitionFlag
+                0x0001aac0                PartitionHeader
+ COMMON         0x0001ae40        0xc ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+                0x0001ae40                UndefinedExceptionAddr
+                0x0001ae44                PrefetchAbortAddr
+                0x0001ae48                DataAbortAddr
+ COMMON         0x0001ae4c        0x4 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+                0x0001ae4c                Xil_AssertStatus
+                0x0001ae50                __bss_end = .
+                0x0001ae50                __bss_end__ = .
+                0x00019040                _SDA_BASE_ = (__sdata_start + ((__sbss_end - __sdata_start) / 0x2))
+                0x0000d0d4                _SDA2_BASE_ = (__sdata2_start + ((__sbss2_end - __sdata2_start) / 0x2))
+
+.heap           0x0001ae50     0x2000
+                0x0001ae50                . = ALIGN (0x10)
+                0x0001ae50                _heap = .
+                0x0001ae50                HeapBase = .
+                0x0001ae50                _heap_start = .
+                0x0001ce50                . = (. + _HEAP_SIZE)
+ *fill*         0x0001ae50     0x2000 
+                0x0001ce50                _heap_end = .
+                0x0001ce50                HeapLimit = .
+
+.stack          0xffff0000     0xd400
+                0xffff0000                . = ALIGN (0x10)
+                0xffff0000                _stack_end = .
+                0xffff6000                . = (. + _STACK_SIZE)
+ *fill*         0xffff0000     0x6000 
+                0xffff6000                _stack = .
+                0xffff6000                __stack = _stack
+                0xffff6000                . = ALIGN (0x10)
+                0xffff6000                _irq_stack_end = .
+                0xffffc000                . = (. + _STACK_SIZE)
+ *fill*         0xffff6000     0x6000 
+                0xffffc000                __irq_stack = .
+                0xffffc000                _supervisor_stack_end = .
+                0xffffc800                . = (. + _SUPERVISOR_STACK_SIZE)
+ *fill*         0xffffc000      0x800 
+                0xffffc800                . = ALIGN (0x10)
+                0xffffc800                __supervisor_stack = .
+                0xffffc800                _abort_stack_end = .
+                0xffffcc00                . = (. + _ABORT_STACK_SIZE)
+ *fill*         0xffffc800      0x400 
+                0xffffcc00                . = ALIGN (0x10)
+                0xffffcc00                __abort_stack = .
+                0xffffcc00                _fiq_stack_end = .
+                0xffffd000                . = (. + _FIQ_STACK_SIZE)
+ *fill*         0xffffcc00      0x400 
+                0xffffd000                . = ALIGN (0x10)
+                0xffffd000                __fiq_stack = .
+                0xffffd000                _undef_stack_end = .
+                0xffffd400                . = (. + _UNDEF_STACK_SIZE)
+ *fill*         0xffffd000      0x400 
+                0xffffd400                . = ALIGN (0x10)
+                0xffffd400                __undef_stack = .
+                0xffffd400                _end = .
+OUTPUT(fsbl.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x154ff
+ .debug_info    0x00000000      0x95c pcap.o
+ .debug_info    0x0000095c      0x8de ps7_init.o
+ .debug_info    0x0000123a       0x3d init.o
+ .debug_info    0x00001277       0x79 nand.o
+ .debug_info    0x000012f0      0x7da qspi.o
+ .debug_info    0x00001aca     0x165f main.o
+ .debug_info    0x00003129       0xe9 fsbl_hooks.o
+ .debug_info    0x00003212      0xc32 md5.o
+ .debug_info    0x00003e44     0x12f6 image_mover.o
+ .debug_info    0x0000513a      0x216 nor.o
+ .debug_info    0x00005350      0x543 sd.o
+ .debug_info    0x00005893       0x85 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .debug_info    0x00005918       0x7e ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .debug_info    0x00005996      0x125 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .debug_info    0x00005abb      0x140 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .debug_info    0x00005bfb     0x2138 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_info    0x00007d33       0x82 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .debug_info    0x00007db5      0x293 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .debug_info    0x00008048      0x643 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_info    0x0000868b      0x2d6 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_info    0x00008961     0x1938 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_info    0x0000a299      0x18d ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .debug_info    0x0000a426      0x864 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_info    0x0000ac8a     0x175f ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_info    0x0000c3e9      0x680 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_info    0x0000ca69      0x15a ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .debug_info    0x0000cbc3      0x108 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .debug_info    0x0000cccb       0x82 ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .debug_info    0x0000cd4d       0xb9 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .debug_info    0x0000ce06      0x1b6 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .debug_info    0x0000cfbc      0x146 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .debug_info    0x0000d102      0x48a ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_info    0x0000d58c       0xab ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .debug_info    0x0000d637     0x3bd4 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_info    0x0001120b      0x890 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_info    0x00011a9b      0x197 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .debug_info    0x00011c32     0x1ed2 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_info    0x00013b04      0x150 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .debug_info    0x00013c54     0x18ab ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_abbrev   0x00000000     0x3b3a
+ .debug_abbrev  0x00000000      0x2a2 pcap.o
+ .debug_abbrev  0x000002a2      0x290 ps7_init.o
+ .debug_abbrev  0x00000532       0x33 init.o
+ .debug_abbrev  0x00000565       0x26 nand.o
+ .debug_abbrev  0x0000058b      0x283 qspi.o
+ .debug_abbrev  0x0000080e      0x37c main.o
+ .debug_abbrev  0x00000b8a       0x9c fsbl_hooks.o
+ .debug_abbrev  0x00000c26      0x241 md5.o
+ .debug_abbrev  0x00000e67      0x318 image_mover.o
+ .debug_abbrev  0x0000117f      0x137 nor.o
+ .debug_abbrev  0x000012b6      0x196 sd.o
+ .debug_abbrev  0x0000144c       0x14 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .debug_abbrev  0x00001460       0x14 ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .debug_abbrev  0x00001474       0xb3 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .debug_abbrev  0x00001527       0xa7 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .debug_abbrev  0x000015ce      0x2ce ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_abbrev  0x0000189c       0x14 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .debug_abbrev  0x000018b0      0x18b ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .debug_abbrev  0x00001a3b      0x293 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_abbrev  0x00001cce      0x11b ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_abbrev  0x00001de9      0x300 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_abbrev  0x000020e9       0xde ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .debug_abbrev  0x000021c7      0x284 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_abbrev  0x0000244b      0x2e9 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_abbrev  0x00002734      0x1fb ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_abbrev  0x0000292f       0xd1 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .debug_abbrev  0x00002a00       0x7f ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .debug_abbrev  0x00002a7f       0x14 ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .debug_abbrev  0x00002a93       0x72 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .debug_abbrev  0x00002b05       0xd8 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .debug_abbrev  0x00002bdd       0x8c ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .debug_abbrev  0x00002c69      0x158 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_abbrev  0x00002dc1       0x61 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .debug_abbrev  0x00002e22      0x33d ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_abbrev  0x0000315f      0x252 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_abbrev  0x000033b1       0xd1 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .debug_abbrev  0x00003482      0x335 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_abbrev  0x000037b7       0x7f ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .debug_abbrev  0x00003836      0x304 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_loc      0x00000000    0x139ab
+ .debug_loc     0x00000000      0x60f pcap.o
+ .debug_loc     0x0000060f      0x4e8 ps7_init.o
+ .debug_loc     0x00000af7      0x4a1 qspi.o
+ .debug_loc     0x00000f98      0xd8b main.o
+ .debug_loc     0x00001d23     0x1eb9 md5.o
+ .debug_loc     0x00003bdc      0xe37 image_mover.o
+ .debug_loc     0x00004a13      0x1b1 nor.o
+ .debug_loc     0x00004bc4       0xc2 sd.o
+ .debug_loc     0x00004c86       0x1e ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .debug_loc     0x00004ca4     0x144d ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_loc     0x000060f1       0x3f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .debug_loc     0x00006130      0x76f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_loc     0x0000689f       0xf6 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_loc     0x00006995     0x2016 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_loc     0x000089ab       0x4d ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .debug_loc     0x000089f8      0x845 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_loc     0x0000923d     0x1642 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_loc     0x0000a87f      0x4f2 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_loc     0x0000ad71       0x4d ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .debug_loc     0x0000adbe       0x21 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .debug_loc     0x0000addf       0x42 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .debug_loc     0x0000ae21      0x226 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_loc     0x0000b047     0x51eb ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_loc     0x00010232      0x59c ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_loc     0x000107ce       0x4d ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .debug_loc     0x0001081b     0x1b49 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_loc     0x00012364     0x1647 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_aranges  0x00000000      0x4c8
+ .debug_aranges
+                0x00000000       0x20 pcap.o
+ .debug_aranges
+                0x00000020       0x20 ps7_init.o
+ .debug_aranges
+                0x00000040       0x20 init.o
+ .debug_aranges
+                0x00000060       0x18 nand.o
+ .debug_aranges
+                0x00000078       0x20 qspi.o
+ .debug_aranges
+                0x00000098       0x28 main.o
+ .debug_aranges
+                0x000000c0       0x20 fsbl_hooks.o
+ .debug_aranges
+                0x000000e0       0x20 md5.o
+ .debug_aranges
+                0x00000100       0x20 image_mover.o
+ .debug_aranges
+                0x00000120       0x20 nor.o
+ .debug_aranges
+                0x00000140       0x20 sd.o
+ .debug_aranges
+                0x00000160       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .debug_aranges
+                0x00000180       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .debug_aranges
+                0x000001a0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .debug_aranges
+                0x000001c0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .debug_aranges
+                0x000001e0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_aranges
+                0x00000200       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .debug_aranges
+                0x00000220       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .debug_aranges
+                0x00000240       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_aranges
+                0x00000260       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_aranges
+                0x00000280       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_aranges
+                0x000002a0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .debug_aranges
+                0x000002c0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_aranges
+                0x000002e0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_aranges
+                0x00000300       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_aranges
+                0x00000320       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .debug_aranges
+                0x00000340       0x18 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .debug_aranges
+                0x00000358       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .debug_aranges
+                0x00000378       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .debug_aranges
+                0x00000398       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .debug_aranges
+                0x000003b8       0x18 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .debug_aranges
+                0x000003d0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_aranges
+                0x000003f0       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .debug_aranges
+                0x00000410       0x20 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_aranges
+                0x00000430       0x20 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_aranges
+                0x00000450       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .debug_aranges
+                0x00000470       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_aranges
+                0x00000490       0x18 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .debug_aranges
+                0x000004a8       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_ranges   0x00000000     0x1908
+ .debug_ranges  0x00000000       0x68 pcap.o
+ .debug_ranges  0x00000068      0x140 ps7_init.o
+ .debug_ranges  0x000001a8       0x68 qspi.o
+ .debug_ranges  0x00000210      0x1e8 main.o
+ .debug_ranges  0x000003f8      0x140 md5.o
+ .debug_ranges  0x00000538       0x98 image_mover.o
+ .debug_ranges  0x000005d0      0x1c8 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_ranges  0x00000798       0x68 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_ranges  0x00000800       0x30 ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_ranges  0x00000830      0x360 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_ranges  0x00000b90       0x48 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_ranges  0x00000bd8      0x1d0 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_ranges  0x00000da8       0x60 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_ranges  0x00000e08       0xc0 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_ranges  0x00000ec8      0x518 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_ranges  0x000013e0       0x28 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_ranges  0x00001408      0x290 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_ranges  0x00001698      0x270 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_line     0x00000000     0x6cb7
+ .debug_line    0x00000000      0x2d0 pcap.o
+ .debug_line    0x000002d0      0x156 ps7_init.o
+ .debug_line    0x00000426       0x34 init.o
+ .debug_line    0x0000045a       0x1d nand.o
+ .debug_line    0x00000477      0x2f2 qspi.o
+ .debug_line    0x00000769        0x0 rsa.o
+ .debug_line    0x00000769      0x5e2 main.o
+ .debug_line    0x00000d4b      0x121 fsbl_hooks.o
+ .debug_line    0x00000e6c      0x391 md5.o
+ .debug_line    0x000011fd      0x4b3 image_mover.o
+ .debug_line    0x000016b0      0x14d nor.o
+ .debug_line    0x000017fd      0x15b sd.o
+ .debug_line    0x00001958       0x90 ../misc//ps7_cortexa9_0/lib/libxil.a(asm_vectors.o)
+ .debug_line    0x000019e8      0x13e ../misc//ps7_cortexa9_0/lib/libxil.a(boot.o)
+ .debug_line    0x00001b26      0x112 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .debug_line    0x00001c38       0x62 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .debug_line    0x00001c9a      0x54e ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_line    0x000021e8       0x55 ../misc//ps7_cortexa9_0/lib/libxil.a(xil-crt0.o)
+ .debug_line    0x0000223d      0x12f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .debug_line    0x0000236c      0x33d ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_line    0x000026a9      0x13a ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_line    0x000027e3      0x9c1 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_line    0x000031a4      0x11e ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .debug_line    0x000032c2      0x3d8 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_line    0x0000369a      0x89c ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_line    0x00003f36      0x3bb ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_line    0x000042f1      0x11e ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .debug_line    0x0000440f      0x108 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .debug_line    0x00004517       0x48 ../misc//ps7_cortexa9_0/lib/libxil.a(cpu_init.o)
+ .debug_line    0x0000455f       0x5b ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .debug_line    0x000045ba      0x11c ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .debug_line    0x000046d6      0x108 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .debug_line    0x000047de      0x165 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_line    0x00004943       0x97 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .debug_line    0x000049da      0xe89 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_line    0x00005863      0x23b ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_line    0x00005a9e      0x11a ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .debug_line    0x00005bb8      0x84e ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_line    0x00006406      0x104 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .debug_line    0x0000650a      0x7ad ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_str      0x00000000     0x2a2d
+ .debug_str     0x00000000      0x3e7 pcap.o
+                                0x48d (size before relaxing)
+ .debug_str     0x000003e7      0x365 ps7_init.o
+                                0x4a6 (size before relaxing)
+ .debug_str     0x0000074c      0x365 init.o
+                                 0xa0 (size before relaxing)
+ .debug_str     0x0000074c        0x7 nand.o
+                                0x138 (size before relaxing)
+ .debug_str     0x00000753      0x25e qspi.o
+                                0x461 (size before relaxing)
+ .debug_str     0x000009b1        0x6 rsa.o
+                                 0x99 (size before relaxing)
+ .debug_str     0x000009b7      0x297 main.o
+                                0x5a0 (size before relaxing)
+ .debug_str     0x00000c4e        0xd fsbl_hooks.o
+                                0x180 (size before relaxing)
+ .debug_str     0x00000c5b       0xb2 md5.o
+                                0x209 (size before relaxing)
+ .debug_str     0x00000d0d      0x426 image_mover.o
+                                0x79e (size before relaxing)
+ .debug_str     0x00001133       0x25 nor.o
+                                0x210 (size before relaxing)
+ .debug_str     0x00001158      0x232 sd.o
+                                0x3ec (size before relaxing)
+ .debug_str     0x0000138a       0x60 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+                                0x1a2 (size before relaxing)
+ .debug_str     0x000013ea       0x94 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+                                0x204 (size before relaxing)
+ .debug_str     0x0000147e      0x412 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+                                0x60c (size before relaxing)
+ .debug_str     0x00001890       0xdc ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+                                0x2cb (size before relaxing)
+ .debug_str     0x0000196c      0x118 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+                                0x2bb (size before relaxing)
+ .debug_str     0x00001a84       0x2a ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+                                0x203 (size before relaxing)
+ .debug_str     0x00001aae      0x24d ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+                                0x502 (size before relaxing)
+ .debug_str     0x00001cfb       0x2b ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+                                0x1f8 (size before relaxing)
+ .debug_str     0x00001d26       0xc0 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+                                0x3fd (size before relaxing)
+ .debug_str     0x00001de6      0x218 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+                                0x4b8 (size before relaxing)
+ .debug_str     0x00001ffe       0x52 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+                                0x2f4 (size before relaxing)
+ .debug_str     0x00002050       0x22 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+                                0x1c1 (size before relaxing)
+ .debug_str     0x00002072        0xc ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x0000207e       0x1b ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+                                0x17a (size before relaxing)
+ .debug_str     0x00002099       0x7f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+                                0x222 (size before relaxing)
+ .debug_str     0x00002118        0xc ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+                                0x1d2 (size before relaxing)
+ .debug_str     0x00002124       0x85 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+                                0x201 (size before relaxing)
+ .debug_str     0x000021a9       0x15 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+                                0x173 (size before relaxing)
+ .debug_str     0x000021be      0x3e0 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+                                0x73d (size before relaxing)
+ .debug_str     0x0000259e      0x1d4 ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+                                0x4b9 (size before relaxing)
+ .debug_str     0x00002772       0x68 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+                                0x201 (size before relaxing)
+ .debug_str     0x000027da      0x1ed ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+                                0x61f (size before relaxing)
+ .debug_str     0x000029c7        0xa ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x000029d1       0x5c ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+                                0x54c (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e pcap.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ps7_init.o
+ .comment       0x0000006e       0x6f init.o
+ .comment       0x0000006e       0x6f nand.o
+ .comment       0x0000006e       0x6f qspi.o
+ .comment       0x0000006e       0x6f rsa.o
+ .comment       0x0000006e       0x6f main.o
+ .comment       0x0000006e       0x6f fsbl_hooks.o
+ .comment       0x0000006e       0x6f md5.o
+ .comment       0x0000006e       0x6f image_mover.o
+ .comment       0x0000006e       0x6f nor.o
+ .comment       0x0000006e       0x6f sd.o
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_g.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_g.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_g.o)
+ .comment       0x0000006e       0x6f ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+
+.debug_frame    0x00000000     0x256c
+ .debug_frame   0x00000000       0xf8 pcap.o
+ .debug_frame   0x000000f8      0x128 ps7_init.o
+ .debug_frame   0x00000220       0x30 init.o
+ .debug_frame   0x00000250       0xb4 qspi.o
+ .debug_frame   0x00000304      0x1cc main.o
+ .debug_frame   0x000004d0       0x50 fsbl_hooks.o
+ .debug_frame   0x00000520       0xf4 md5.o
+ .debug_frame   0x00000614      0x1c8 image_mover.o
+ .debug_frame   0x000007dc       0x30 nor.o
+ .debug_frame   0x0000080c       0x5c sd.o
+ .debug_frame   0x00000868       0x34 ../misc//ps7_cortexa9_0/lib/libxil.a(usleep.o)
+ .debug_frame   0x0000089c       0x70 ../misc//ps7_cortexa9_0/lib/libxil.a(vectors.o)
+ .debug_frame   0x0000090c      0x300 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_cache.o)
+ .debug_frame   0x00000c0c       0x80 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_exception.o)
+ .debug_frame   0x00000c8c       0xbc ../misc//ps7_cortexa9_0/lib/libxil.a(xil_printf.o)
+ .debug_frame   0x00000d48       0x3c ../misc//ps7_cortexa9_0/lib/libxil.a(xtime_l.o)
+ .debug_frame   0x00000d84      0x264 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips.o)
+ .debug_frame   0x00000fe8       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_sinit.o)
+ .debug_frame   0x00001008      0x148 ../misc//ps7_cortexa9_0/lib/libxil.a(xqspips_options.o)
+ .debug_frame   0x00001150      0x33c ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg.o)
+ .debug_frame   0x0000148c      0x138 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_intr.o)
+ .debug_frame   0x000015c4       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xdevcfg_sinit.o)
+ .debug_frame   0x000015e4       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(outbyte.o)
+ .debug_frame   0x00001604       0x48 ../misc//ps7_cortexa9_0/lib/libxil.a(xil_assert.o)
+ .debug_frame   0x0000164c       0x54 ../misc//ps7_cortexa9_0/lib/libxil.a(xuartps_hw.o)
+ .debug_frame   0x000016a0       0x20 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000016c0       0x28 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o)
+ .debug_frame   0x000016e8       0x34 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-fini.o)
+ .debug_frame   0x0000171c       0x34 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-init.o)
+ .debug_frame   0x00001750       0x3c /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000178c       0x20 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x000017ac       0x68 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001814       0x2c /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00001840       0x3c /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000187c       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(_exit.o)
+ .debug_frame   0x0000189c      0x720 ../misc//ps7_cortexa9_0/lib/libxilffs.a(ff.o)
+ .debug_frame   0x00001fbc      0x10c ../misc//ps7_cortexa9_0/lib/libxilffs.a(diskio.o)
+ .debug_frame   0x000020c8       0x20 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_sinit.o)
+ .debug_frame   0x000020e8      0x20c ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps.o)
+ .debug_frame   0x000022f4      0x248 ../misc//ps7_cortexa9_0/lib/libxil.a(xsdps_options.o)
+ .debug_frame   0x0000253c       0x30 /opt/dist/arm/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memset.o)
