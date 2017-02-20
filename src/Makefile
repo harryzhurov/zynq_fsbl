@@ -80,12 +80,12 @@ LDFLAGS = --entry=_vector_table "$(LIBPATH)/libxil.a(*.o)" --no_search_dynamic_l
 LSCRIPT = --scatter="scatter.scat"
 endif
 	
-	
 $(LIBS): 
 #	echo "Copying ps7_init* files"
 #	cp $(BSP_DIR)/$(BOARD)/ps7_init.* .
 #	echo "Copying BSP files"
 #	$(BSP_DIR)/copy_bsp.sh "$(BOARD)" "$(CC)"
+	$(BSP_DIR)/create_dirs.sh 
 	echo "Compiling bsp"
 	if [ $(CC) == "arm-none-eabi-gcc" ]; then \
 		make -C $(BSP_DIR) -k all "CC=arm-none-eabi-gcc" "AR=arm-none-eabi-ar" "C_FLAGS=-O2 -c" "EC_FLAGS=-g"; \
